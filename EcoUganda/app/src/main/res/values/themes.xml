@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EcoUganda" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/eco_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/eco_light</item>
+        <item name="colorOnSecondaryContainer">@color/eco_dark</item>
+        <item name="android:statusBarColor">@color/eco_dark</item>
+    </style>
+</resources>

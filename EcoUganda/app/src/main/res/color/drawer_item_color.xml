@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- selected item: dark green -->
+    <item android:color="@color/eco_dark" android:state_checked="true" />
+    <!-- all other items: dark gray -->
+    <item android:color="#FF424242" />
+</selector>

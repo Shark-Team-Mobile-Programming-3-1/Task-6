@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.ecouganda.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="com.example.ecouganda.ProjectsFragment"
+        android:label="Projects"
+        tools:layout="@layout/fragment_projects">
+
+        <!-- clicking a project opens its details -->
+        <action
+            android:id="@+id/action_projects_to_detail"
+            app:destination="@id/projectDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/projectDetailFragment"
+        android:name="com.example.ecouganda.ProjectDetailFragment"
+        android:label="Project {projectId}"
+        tools:layout="@layout/fragment_project_detail">
+        <argument
+            android:name="projectId"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/schoolsFragment"
+        android:name="com.example.ecouganda.SchoolsFragment"
+        android:label="Green Schools"
+        tools:layout="@layout/fragment_schools" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.example.ecouganda.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports">
+        <argument
+            android:name="reportId"
+            android:defaultValue="none"
+            app:argType="string" />
+
+        <!-- DEEP LINK: ecouganda://reports/205 opens this screen with reportId = 205 -->
+        <deepLink app:uri="ecouganda://reports/{reportId}" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.ecouganda.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EcoUganda</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="Projects">Projects</string>
+    <string name="GreenSchools">Green Schools</string>
+    <string name="Reports">Reports</string>
+    <string name="Settings">Settings</string>
+    <string name="EcoUganda">EcoUganda</string>
+    <string name="nav_header_text_1">Green Navigator</string>
+    <string name="Fragment_dashboard_text_1">Key metrics (sample data)</string>
+    <string name="Fragment_dashboard_text_2">1,250</string>
+    <string name="Fragment_dashboard_text_3">Total solar installations</string>
+    <string name="Fragment_dashboard_text_4">3,400</string>
+    <string name="Fragment_dashboard_text_5">Acres reforested</string>
+    <string name="Fragment_dashboard_text_6">12,000</string>
+    <string name="Fragment_dashboard_text_7">CO2 offset (tonnes)</string>
+    <string name="Fragment_dashboard_text_8">Send test alert (Mabira Forest)</string>
+    <string name="fragment_projects_text_1">Map view (placeholder)</string>
+    <string name="fragment_settings_text_1">User profile</string>
+    <string name="fragment_settings_text_2">Your name</string>
+    <string name="fragment_settings_text_3">Language</string>
+    <string name="fragment_settings_text_4">English</string>
+    <string name="fragment_settings_text_5">Luganda</string>
+    <string name="fragment_settings_text_6">Runyankore</string>
+    <string name="fragment_settings_text_7">Offline sync</string>
+    <string name="fragment_settings_text_8">Save settings</string>
+    <string name="unknown_project">Unknown project</string>
+    <string name="project_id_info">Project ID: %1$d\n\nRotate the screen: this project stays open.</string>
+    <string name="report_banner_info">Opened from an alert. Report ID: %1$s</string>
+    <string name="alert_allow_notifications">Please allow notifications first</string>
+    <string name="alert_title">ECO Uganda Alert</string>
+    <string name="alert_message_sample">Deforestation alert in Mabira Forest</string>
+    <string name="toast_alert_sent">Alert sent. Check your notifications.</string>
+    <string name="toast_settings_saved">Settings saved</string>
+</resources>
